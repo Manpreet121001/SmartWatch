@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartFit Smartwatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">SmartFit</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#review">Review</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="overlay">
+      <h1>Welcome to SmartFit</h1>
+      <p>Your next-generation health & style smartwatch</p>
+      <a href="#gallery" class="buy-button">Buy Now</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <div class="card">
+        <img src="side.jpg" alt="Watch 1" />
+        <p>Smart Alpha - ₹2,999</p>
+      </div>
+      <div class="card">
+        <img src="frontview.jpg" alt="Watch 2" />
+        <p>Smart Bolt - ₹3,499</p>
+      </div>
+      <div class="card">
+        <img src="download.jpg" alt="Watch 3" />
+        <p>Smart Zeta - ₹4,199</p>
+        
+      </div>
+      <div class="card">
+        <img src="mm.jpg" alt="Watch 4" />
+        <p>Smart Lux - ₹5,299</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>✔️ Heart Rate Monitor</li>
+      <li>✔️ Sleep Tracking</li>
+      <li>✔️ GPS & Step Counter</li>
+      <li>✔️ Water Resistant</li>
+      <li>✔️ 7 Days Battery Life</li>
+    </ul>
+  </section>
+
+  <!-- Review Section -->
+  <section class="review" id="review">
+    <h2>Leave a Review</h2>
+    <form onsubmit="return sendReview()">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SmartFit. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

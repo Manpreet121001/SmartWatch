@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0b5ed7;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  padding: space between;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px; /* increased spacing */
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+.home {
+  height: 100vh;
+  background: url('images1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buy-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buy-button:hover {
+  background-color: #e44444;
+}
+
+/* Section Headings */
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 40px 0 20px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Features */
+.features ul {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.features li {
+  margin: 10px 0;
+}
+
+/* Review Form */
+.review form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto 40px;
+  gap: 15px;
+  padding: 20px;
+}
+
+.review input,
+.review textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.review textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.review button {
+  padding: 10px 20px;
+  background-color: #0b5ed7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review button:hover {
+  background-color: #094bb1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
